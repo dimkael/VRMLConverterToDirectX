@@ -1,0 +1,160 @@
+#VRML V2.0 utf8
+
+PROTO Header_Info [
+field SFString vendor "Parametric Technology Corporation"
+field SFString product "Pro/ENGINEER"
+field SFString version ""
+field SFString sceneFile ""]
+{WorldInfo {}}
+
+PROTO Node_Info [
+field SFString node_type ""
+field SFString node_name ""]
+{WorldInfo {}}
+
+PROTO Geom_Type [
+field SFString geom_type_s "T_Empty"
+field SFInt32 trg_qual 1]
+{WorldInfo {}}
+
+PROTO Member_Info [
+field SFString member_name ""
+field SFInt32 member_id 0
+field SFString proe_name ""
+field SFString proe_type_s  ""
+field SFString expl_status_s "Vrml_Exp_Unknown"
+field MFFloat drag_trf [] ]
+{WorldInfo {}}
+
+PROTO Model_Info [
+field SFInt32 proe_id 2
+field SFString proe_type_s "Proe_Assembly"
+field SFString proe_name "33U_4114-08"
+field SFInt32 maj_rev -5
+field SFInt32 min_rev  -5
+field SFInt32 rev_num 478
+field SFInt32 rev_num_cosm 26
+field SFString inst_type_s "Inst_Type_Main"
+field SFString generic_name "generic_name"
+field SFFloat s_factor 39.3701
+]
+{WorldInfo {}}
+
+Header_Info{
+vendor "Parametric Technology Corporation"
+product "Creo Elements/Pro"
+version "2"
+}
+
+DEF V_Model Anchor {
+  url ""
+  description "33u_4114-08.asm"
+children [
+Node_Info {
+node_type "V_Model"
+node_name "33u_4114-08.asm"
+}
+DEF NO_NAME Viewpoint {
+description "NO_NAME"
+position -2.44358 1.21658 4.4313
+orientation -0.384941 -0.370354 0.845374 0.798868
+fieldOfView 1.56982
+}
+
+Model_Info {
+proe_id 2
+proe_type_s "Proe_Assembly"
+proe_name "33U_4114-08"
+maj_rev -5
+min_rev  -5
+rev_num 478
+rev_num_cosm 26
+inst_type_s "Inst_Type_Main"
+generic_name ""
+s_factor 39.3701
+}
+
+DEF Rep_0 Group {
+ children [
+Node_Info {
+node_type "Rep"
+node_name "Rep_0"
+}
+DEF Member_0_60 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_60"
+}
+Member_Info {
+member_name "Member_0_60"
+member_id 60
+}
+
+Transform {
+rotation 0 1 0 3.14159
+translation 0 0 0.05
+children [
+Inline {
+url "33u_4114_004-08-evti_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_61 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_61"
+}
+Member_Info {
+member_name "Member_0_61"
+member_id 61
+}
+
+Transform {
+rotation 0.57735 0.57735 0.57735 -2.0944
+translation 0.578227 0 -0.3062
+children [
+Inline {
+url "11f732_g9220_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_269 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_269"
+}
+Member_Info {
+member_name "Member_0_269"
+member_id 269
+}
+
+Transform {
+rotation 0.965926 -0.258819 0 3.14159
+translation 0.356931 0.714222 -0.001
+children [
+Inline {
+url "el-gidrraz_asm.wrl"}
+
+]
+}
+
+]
+}
+
+]
+}
+
+]
+}
+

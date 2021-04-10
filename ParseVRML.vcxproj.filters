@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\ClassesHierarchy">
+      <UniqueIdentifier>{8b913f18-8f72-41e2-b1be-0caa73928836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ClassesHierarchy\Nodes">
+      <UniqueIdentifier>{2f02adbc-1e74-4e18-8e94-26a7ba3cc65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ClassesHierarchy\Nodes\Shapes">
+      <UniqueIdentifier>{0913bf34-e1be-415a-aefc-4dd8a3f29461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassesHierarchy">
+      <UniqueIdentifier>{42e466ae-6da6-4526-812d-c8e95a6045e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassesHierarchy\Nodes">
+      <UniqueIdentifier>{d46dba17-2a81-4581-be28-a4d85fc74bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassesHierarchy\Nodes\Shapes">
+      <UniqueIdentifier>{96434d40-f7fd-4219-8281-360e7feebc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Appearance">
+      <UniqueIdentifier>{a2b359e2-69f0-45e5-9386-1807478d244f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Geometry">
+      <UniqueIdentifier>{ad020a0d-9848-49d7-922f-760fb7d87b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Geometry\Primitives">
+      <UniqueIdentifier>{f0f6671b-e3fa-4185-bd47-5a70fb098b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassesHierarchy\Nodes\Shapes\Appearance">
+      <UniqueIdentifier>{e75d8d9e-2e9e-4109-9874-1e9f93bafd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassesHierarchy\Nodes\Shapes\Geometry">
+      <UniqueIdentifier>{29f74a78-6fd1-4a11-983d-e860ff0dffaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassesHierarchy\Nodes\Shapes\Geometry\Primitives">
+      <UniqueIdentifier>{e327ae44-8e12-4a96-be3f-f3f1b7e2fea0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ParseVRML.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="parseNode.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="classNode.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="parseTransform.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="classTransform.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="classGroup.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="parseGroup.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="classShape.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="parseShape.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="classAppearance.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="classGeometry.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="classMaterial.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes\Shapes\Appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="classCoordinate.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes\Shapes\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="classNormal.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes\Shapes\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="classIndexedFaceSet.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes\Shapes\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="classIndexedLineSet.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy\Nodes\Shapes\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="getCoord.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="parseInline.cpp">
+      <Filter>Исходные файлы\ClassesHierarchy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="classNode.h">
+      <Filter>Файлы заголовков\ClassesHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="classGroup.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="classShape.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="classTransform.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="parseTransform.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="parseNode.h">
+      <Filter>Файлы заголовков\ClassesHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="parseGroup.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="parseShape.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="classAppearance.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="classGeometry.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="classMaterial.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Appearance</Filter>
+    </ClInclude>
+    <ClInclude Include="classCoordinate.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="classIndexedFaceSet.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="classIndexedLineSet.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="classNormal.h">
+      <Filter>Файлы заголовков\ClassesHierarchy\Nodes\Shapes\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="getCoord.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="del.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="parseInline.h">
+      <Filter>Файлы заголовков\ClassesHierarchy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
