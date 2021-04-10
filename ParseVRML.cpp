@@ -8,8 +8,8 @@ int main() {
 		DEF = new map<string, Node*>;
 		FILES = new map<string, vector<Node*>*>;
 
-		string input = "Data/MOTOR_ST.wrl";
-		string output = "Data/MOTOR_ST.x";
+		string input = "model.wrl";
+		string output = "model.x";
 		vector<Node*>* nodes = new vector<Node*>;
 		
 		parse(input, nodes);
